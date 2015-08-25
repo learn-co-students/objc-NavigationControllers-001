@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26471C131B8BE1CB007CDBE0 /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 26471C121B8BE1CB007CDBE0 /* TeamMember.m */; };
+		26471C161B8BE1E0007CDBE0 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26471C151B8BE1E0007CDBE0 /* TeamViewController.m */; };
+		26471C191B8BE1F0007CDBE0 /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26471C181B8BE1F0007CDBE0 /* TeamDetailViewController.m */; };
 		44239E021950D50F008E9E68 /* NavigationControllersSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44239E011950D50F008E9E68 /* NavigationControllersSpec.m */; };
 		44C082C41950DA1900C9975D /* al.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C082C31950DA1900C9975D /* al.jpg */; };
 		44C082C61950E5D800C9975D /* joe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C082C51950E5D800C9975D /* joe.jpg */; };
@@ -41,6 +44,12 @@
 /* Begin PBXFileReference section */
 		10B9B3F904CE21FB0A5F4C8F /* Pods-NavigationControllersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavigationControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26471C111B8BE1CB007CDBE0 /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamMember.h; path = ../TeamMember.h; sourceTree = "<group>"; };
+		26471C121B8BE1CB007CDBE0 /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamMember.m; path = ../TeamMember.m; sourceTree = "<group>"; };
+		26471C141B8BE1E0007CDBE0 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamViewController.h; path = ../TeamViewController.h; sourceTree = "<group>"; };
+		26471C151B8BE1E0007CDBE0 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamViewController.m; path = ../TeamViewController.m; sourceTree = "<group>"; };
+		26471C171B8BE1F0007CDBE0 /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamDetailViewController.h; path = ../TeamDetailViewController.h; sourceTree = "<group>"; };
+		26471C181B8BE1F0007CDBE0 /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamDetailViewController.m; path = ../TeamDetailViewController.m; sourceTree = "<group>"; };
 		44239E011950D50F008E9E68 /* NavigationControllersSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllersSpec.m; sourceTree = "<group>"; };
 		44C082C31950DA1900C9975D /* al.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al.jpg; sourceTree = "<group>"; };
 		44C082C51950E5D800C9975D /* joe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joe.jpg; sourceTree = "<group>"; };
@@ -63,12 +72,6 @@
 		44F3900F18B3F4650012314D /* NavigationControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationControllersTests-Info.plist"; sourceTree = "<group>"; };
 		44F3901118B3F4650012314D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44F3901318B3F4650012314D /* TeamMemberSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamMemberSpec.m; sourceTree = "<group>"; };
-		44F3901D18B3F4B40012314D /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
-		44F3901E18B3F4B40012314D /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
-		44F3902018B3F67A0012314D /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
-		44F3902118B3F67A0012314D /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
-		44F3902318B3F6890012314D /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
-		44F3902418B3F6890012314D /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
 		C8F9E5DF606C723879D1934D /* Pods-NavigationControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +137,12 @@
 			children = (
 				44F38FF718B3F4650012314D /* AppDelegate.h */,
 				44F38FF818B3F4650012314D /* AppDelegate.m */,
+				26471C111B8BE1CB007CDBE0 /* TeamMember.h */,
+				26471C121B8BE1CB007CDBE0 /* TeamMember.m */,
+				26471C141B8BE1E0007CDBE0 /* TeamViewController.h */,
+				26471C151B8BE1E0007CDBE0 /* TeamViewController.m */,
+				26471C171B8BE1F0007CDBE0 /* TeamDetailViewController.h */,
+				26471C181B8BE1F0007CDBE0 /* TeamDetailViewController.m */,
 				44F38FFA18B3F4650012314D /* Main.storyboard */,
 				44F3900018B3F4650012314D /* Images.xcassets */,
 				44F38FEF18B3F4650012314D /* Supporting Files */,
@@ -320,8 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26471C191B8BE1F0007CDBE0 /* TeamDetailViewController.m in Sources */,
 				44F38FF918B3F4650012314D /* AppDelegate.m in Sources */,
+				26471C161B8BE1E0007CDBE0 /* TeamViewController.m in Sources */,
 				44F38FF518B3F4650012314D /* main.m in Sources */,
+				26471C131B8BE1CB007CDBE0 /* TeamMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
