@@ -17,4 +17,11 @@
 @property (nonatomic) NSString *favoriteBand;
 @property (nonatomic) UIImage *photo;
 
+- (instancetype)init;
+- (instancetype)initWithname:(NSString *)name
+         phoneNumber:(NSString *)phoneNumber
+           birthCity:(NSString *)birthCity
+          birthState:(NSString *)birthState
+        favoriteBand:(NSString *)favoriteBand;
+
 @end
