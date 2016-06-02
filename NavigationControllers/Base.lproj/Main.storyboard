@@ -24,7 +24,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mKz-5K-FLT" kind="show" id="ilX-BF-oe2"/>
+                                    <segue destination="mKz-5K-FLT" kind="show" identifier="al" id="ilX-BF-oe2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUU-Aq-7b6">
@@ -35,7 +35,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mKz-5K-FLT" kind="show" id="kyZ-sc-UrF"/>
+                                    <segue destination="mKz-5K-FLT" kind="show" identifier="joe" id="kyZ-sc-UrF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIu-yK-Br8">
@@ -46,7 +46,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mKz-5K-FLT" kind="show" id="3VD-mt-NWP"/>
+                                    <segue destination="mKz-5K-FLT" kind="show" identifier="avi" id="3VD-mt-NWP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-U2-von">
@@ -57,7 +57,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mKz-5K-FLT" kind="show" id="WIr-MS-ibs"/>
+                                    <segue destination="mKz-5K-FLT" kind="show" identifier="chris" id="WIr-MS-ibs"/>
                                 </connections>
                             </button>
                         </subviews>
