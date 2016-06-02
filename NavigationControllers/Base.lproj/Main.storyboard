@@ -114,6 +114,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="4af-HY-tdv"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="favoriteBand" destination="9Pf-6J-Pt8" id="jAQ-vc-1ec"/>
+                        <outlet property="hometown" destination="AUo-h2-VFS" id="Ixi-eA-IQb"/>
+                        <outlet property="name" destination="bqA-LW-Bdw" id="jUO-7O-Xhv"/>
+                        <outlet property="phoneNumber" destination="Uag-Kv-B1M" id="YYu-mb-tD5"/>
+                        <outlet property="photo" destination="UfY-cI-eh3" id="2d3-Kq-doP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80I-JA-Vhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
