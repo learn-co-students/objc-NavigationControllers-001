@@ -10,4 +10,6 @@
 
 @interface TeamViewController : UIViewController
 
+@property (nonatomic) NSArray *teamMembers;
+
 @end
