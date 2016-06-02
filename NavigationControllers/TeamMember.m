@@ -30,7 +30,8 @@
         _birthCity = birthCity;
         _birthState = birthState;
         _favoriteBand = favoriteBand;
-        self.photo = [UIImage imageNamed:name];
+        NSString *imageName = [name lowercaseString];
+        self.photo = [UIImage imageNamed:imageName];
     }
     return self;
 }
